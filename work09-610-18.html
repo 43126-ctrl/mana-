@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<title>work9 html layout</title>
+<style>
+*{box-sizing:border-box;
+         margin:0;
+         padding:0;
+}
+.container{
+          width:1000px;
+          margin:0 auto;
+          box-shadow: rgba(0, 0, 0, 0.17) 0px  -23px  25px 0px inset ,rgba(0, 0, 0, 0.15) 0px  -36px  30px 0px  inset, rgba(0, 0, 0, 0.1) 0px  -79px  40px 0px inset,nrgba(0, 0, 0, 0.06) 0px  2px  1px, rgba(0, 0, 0, 0.09) 0px  16px  8px, inset,rgba(0, 0, 0, 0.09) 0px  32px  16px;
+}
+
+header{
+        background-image:url(images/herder.jpg);
+        height:250px;
+}
+section{
+        display:flex;
+}
+nav{
+        background-color:red;
+        flex:1;
+}
+article{
+        background-color:green;
+        flex:3;
+        padding:10px;
+}
+footer{
+        background-color:orange;
+        padding:25px;
+        text-align:center;
+}
+a:link
+        {color:pink;
+         text-decoration:none;
+         background-color:yellow;
+         display:block;
+         width:100%;
+         padding:5px;
+}
+a:visited
+         {color:blue;
+}
+a:hover
+         {color:red;
+          background-color:green;
+}
+a:active
+         {color:green;
+}
+
+
+</style>
+</head>
+<body>
+<div class="container">
+
+<header>
+                       <h1>ส่วนหัว</h1>
+</header>
+<section>
+<nav>
+           <ul style="list-style-type:none;">
+           <li><a href="">สวนผึ้ง</a></li>
+           <li><a href="">บ้านคา</a></li>
+           <li><a href="">คูบัว</a></li>
+           </ul>
+</nav>
+<article>
+                        <p>ส่วนเนื้อหา</p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum.</p>
+</article>
+</section>
+<footer>
+<p>จัดทำโดย นาย มานะ คำดี ชั้น ม.6/10 เลขที่ 18<br>
+โรงเรียน รัตนราษฐบำรุง</p>
+</footeer>
+</div>
+</body>
+</html>
